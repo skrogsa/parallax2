@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.content-2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(107, 131, 115);
+    color: white;
+}
+
+.content-3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(165, 93, 0);
+    color: white;
+}
+
+.content-4 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(185, 70, 24);
+    color: white;
+}
+
+#mountain-bg {
+    background-image: url(images/mountain.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    padding-top: 40em;
+}
+
+#mountain-bg > h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+}
+
+#look-bg {
+    background-image: url(images/look.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    padding-top: 40em;
+}
+
+#moon-bg {
+    background-image: url(images/moon.jpg);
+}
+
+#lantern-bg {
+    background-image: url(images/lantern.jpg);
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/*
+#black-bg {
+    background-color: black;
+    color: white;
+
+}
+*/
